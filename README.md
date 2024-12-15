@@ -178,4 +178,7 @@ Lottie Player is integrated to enhance the UI with animations:
 * Example animations: `plant.json` and `zoom.json`.
 * Fully managed via npm with no extra setup required.
 
----
+<div align="center">
+  <img src="https://ielyzaveta.com/media/plant.gif" alt="Loading Lottie Example" />
+</div>
+
