@@ -19,7 +19,7 @@ Demo: [Greenspark Product Widgets](https://greenspark-widgets.netlify.app/) 🌐
 4. [Installation and Setup](#%EF%B8%8F-installation-and-setup)
 5. [File Structure](#-file-structure)
 6. [Files Overview](#-files-overview)
-7. [Design Choices](#-design-choices)
+7. [Development Approach](#-development-approach)
 8. [Lottie Player Integration](#-lottie-player-integration)
 
 ---
