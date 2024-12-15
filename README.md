@@ -9,7 +9,7 @@ This project implements a widget management system, allowing users to view and c
 
 ![Greenspark Product Widgets](https://ielyzaveta.com/media/greenspark.gif)
 
-Demo: [Greenspark Product Widgets](https://lustrous-gaufre-75edec.netlify.app/) 🌐
+Demo: [Greenspark Product Widgets](https://greenspark-widgets.netlify.app/) 🌐
 ---
 
 ## 📖 Table of Contents
