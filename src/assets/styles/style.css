@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Cabin';
+    src: url('~@/assets/fonts/Cabin-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-stretch: 75% 100%;
+    font-style: normal;
+  }
+
+  :root {
+  --font-primary: 'Cabin', sans-serif;
+  --color-primary: #3B755F;
+  --color-secondary: var(--color-black);
+  --color-accent: var(--color-bg);
+  --color-border: #B0B0B0;
+  --color-hover: #AFC6BD;
+  --color-blue: #2E3A8C;
+  --color-beige: #F2EBDB;
+  --color-black:#212121;
+  --color-white:#f9f9f9;
+  --color-gray:#AFC6BD;
+  --color-text-primary: var(--color-secondary);
+  --spacing-lg: 36px;
+  --spacing-md: 20px;
+  --spacing-sm: 12px;
+  --radius-md: 8px;
+  --font-size-heading: 30px;
+  --font-size-message: 16px;
+  --shadow: 
+    0px 42px 76px rgba(0, 0, 0, 0.05),
+    0px 27.22px 44.51px rgba(0, 0, 0, 0.038),
+    0px 16.18px 24.21px rgba(0, 0, 0, 0.0304),
+    0px 8.4px 12.35px rgba(0, 0, 0, 0.025),
+    0px 3.42px 6.19px rgba(0, 0, 0, 0.0196),
+    0px 0.78px 2.99px rgba(0, 0, 0, 0.012);
+}
+
+*{
+  box-sizing: border-box;
+}
+  /* Body Font Style */
+  body {
+    font-family: var(--font-primary);
+    font-weight: 400;
+  }
+
+  h2 {
+    color: var(--color-text-primary);
+    font-weight: bold;
+    font-size: var(--font-size-heading);
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  h5 {
+    font-weight: 400;
+    font-size: 12.4px;
+    line-height: 1.2;
+  }
+
+  h4 {
+    font-weight: bold;
+    font-size: 17.86px;
+    line-height: 1.2;
+    width: 110%;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .link::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--color-primary);
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+  }
+
+  .link {
+    color: var(--color-primary);
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -0.02em;
+    position: relative;
+  }
+
+  .link:hover::before {
+    transform: scaleX(1);
+  }
+
+  .regular-text{
+    font-size: 14px;
+    color: var(--color-black);
+    text-align: center;
+    font-weight: 400;
+  }
+
+  /* Responsive */
+  @media (min-width: 765px) and (max-width: 1024px) {
+    #app {
+      padding: 40px;
+    }
+  }
+
