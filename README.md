@@ -7,6 +7,8 @@
 
 This project implements a widget management system, allowing users to view and customize product widgets dynamically. Below is a guide to understanding the project, setting it up, and exploring its structure.
 
+![Greenspark Product Widgets](https://ielyzaveta.com/media/greenspark.gif)
+
 Demo: [Greenspark Product Widgets](https://lustrous-gaufre-75edec.netlify.app/) 🌐
 ---
 
