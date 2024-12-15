@@ -179,6 +179,6 @@ Lottie Player is integrated to enhance the UI with animations:
 * Fully managed via npm with no extra setup required.
 
 <div align="center">
-  <img src="https://ielyzaveta.com/media/plant.gif" alt="Loading Lottie Example" />
+  <img src="https://ielyzaveta.com/media/loading.gif" alt="Loading Lottie Example" />
 </div>
 
